@@ -12,6 +12,6 @@ public class HelloWorldController {
 
     @RequestMapping("/helloworld")
     public String helloworld(){
-        return "Hello World!version2";
+        return "Hello World!normal merge";
     }
 }
