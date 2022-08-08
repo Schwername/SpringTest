@@ -12,7 +12,7 @@ public class HelloWorldController {
 
     @RequestMapping("/helloworld")
     public String helloworld(){
-        System.out.println("conflict merge hotfix");
-        return "Hello World!conflict merge";
+        System.out.println("github push test");
+        return "Hello World!";
     }
 }
