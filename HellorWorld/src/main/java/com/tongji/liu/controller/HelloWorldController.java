@@ -12,7 +12,7 @@ public class HelloWorldController {
 
     @RequestMapping("/helloworld")
     public String helloworld(){
-        System.out.println("github push test");
+        System.out.println("github pull test");
         return "Hello World!";
     }
 }
