@@ -12,6 +12,6 @@ public class HelloWorldController {
 
     @RequestMapping("/helloworld")
     public String helloworld(){
-        return "Hello World!normal merge";
+        return "Hello World!conflict merge";
     }
 }
