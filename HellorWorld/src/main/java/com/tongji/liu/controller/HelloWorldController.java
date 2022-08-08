@@ -12,6 +12,7 @@ public class HelloWorldController {
 
     @RequestMapping("/helloworld")
     public String helloworld(){
+        System.out.println("conflict merge hotfix");
         return "Hello World!normal merge";
     }
 }
